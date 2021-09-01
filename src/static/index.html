@@ -1,0 +1,46 @@
+<script>
+  const saveLocation = async () => {
+    const { coords } = await getPosition();
+    const locationName = document.querySelector('#locationName').value;
+
+    const input = {
+      locationName,
+      longitude: coords.longitude,
+      latitude: coords.latitude
+    }
+    const options = {
+      method: 'POST',
+      body: JSON.stringify(input),
+      headers: { 'Content-Type': 'application/json' }
+    }
+    fetch('/location', options)
+      .then(res => res.json())
+      .then(res => console.log(res))
+      .error(e => alert('Saving failed'));
+  }
+
+  const getPosition = async () => {
+    return new Promise(resolve => navigator.geolocation.getCurrentPosition(position => resolve(position), () => { }, { enableHighAccuracy: true }));
+  }
+
+  const onPosition = (geo) => {
+    document.getElementById('latitude').textContent = geo.coords.latitude;
+    document.getElementById('longitude').textContent = geo.coords.longitude;
+    document.getElementById('accuracy').textContent = geo.coords.accuracy;
+  };
+
+  navigator.geolocation.watchPosition(onPosition, () => { }, { enableHighAccuracy: true });
+</script>
+
+<body>
+  <div id="main">
+    Latitude: <span id="latitude"></span><br>
+    Longitude: <span id="longitude"></span><br>
+    Accuracy: <span id="accuracy"></span><br>
+    <div>
+      <label for="locationName">Location name:</label>
+      <input id="locationName" type="text">
+      <button type="button" onClick="saveLocation()">Save location</button>
+    </div>
+  </div>
+</body>
