@@ -1,0 +1,39 @@
+{
+    "locations": [
+        {
+            "locationId": "Some Location",
+            "longitude": -111.91958096994148,
+            "latitude": 33.419392356066354
+        },
+        {
+            "locationId": "Some Other Location",
+            "longitude": -111.91978096994148,
+            "latitude": 33.419382356066354
+        },
+        {
+            "locationId": "More locations",
+            "longitude": -111.91955096994148,
+            "latitude": 33.419342356066354
+        },
+        {
+            "locationId": "Another Location",
+            "longitude": -111.91954096994148,
+            "latitude": 33.419322356066354
+        },
+        {
+            "locationId": "Location",
+            "longitude": -111.91958096994148,
+            "latitude": 33.419342356066354
+        },
+        {
+            "locationId": "Location2",
+            "longitude": -111.91953096994148,
+            "latitude": 33.419672356066354
+        },
+        {
+            "locationId": "Location3",
+            "longitude": -111.91958096994148,
+            "latitude": 33.419872356066354
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"selector.d.ts","sourceRoot":"","sources":["../../../src/edit/selector.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,MAAM,OAAO,CAAC;AAC1B,OAAO,EAAE,sBAAsB,EAAE,MAAM,0BAA0B,CAAC;AAMlE;;GAEG;AACH,qBAAa,QAAS,SAAQ,KAAK,CAAC,IAAI;IACtC,QAAQ,CAAC,KAAK,EAAE,sBAAsB,CAAC;gBAE3B,KAAK,EAAE,sBAAsB;IAUzC,cAAc,IAAI,IAAI;CA8CvB"}
