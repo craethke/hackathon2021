@@ -1,1 +1,0 @@
-{"version":3,"file":"stackingArea.d.ts","sourceRoot":"","sources":["../../../src/view/stackingArea.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAiB,MAAM,aAAa,CAAC;AAOvD;;GAEG;AACH,qBAAa,YAAa,SAAQ,SAAS;gBAC7B,IAAI,SAAI,EAAE,IAAI,SAAI,EAAE,SAAS,SAA6B;IAYtE,gBAAgB,CAAC,IAAI,EAAE,MAAM,EAAE,IAAI,EAAE,MAAM,GAAG,YAAY;CAG3D"}

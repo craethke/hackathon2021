@@ -1,1 +1,0 @@
-{"version":3,"file":"editableStackingArea.d.ts","sourceRoot":"","sources":["../../../src/edit/editableStackingArea.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAE,MAAM,sBAAsB,CAAC;AAEpD;;GAEG;AACH,qBAAa,oBAAqB,SAAQ,YAAY;gBACxC,IAAI,SAAI,EAAE,IAAI,SAAI,EAAE,SAAS,CAAC,EAAE,MAAM;IAKlD,gBAAgB,CAAC,IAAI,EAAE,MAAM,EAAE,IAAI,EAAE,MAAM,GAAG,oBAAoB;CAGnE"}
